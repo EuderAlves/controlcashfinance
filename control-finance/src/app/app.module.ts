@@ -8,9 +8,10 @@ import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
 import { MaterialModule } from './core/material/material.module';
 import { CardItensComponent } from './shared/card-itens/card-itens.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ContainerComponent } from './shared/container/container.component';
 
 @NgModule({
-  declarations: [AppComponent, CardItensComponent, DashboardComponent],
+  declarations: [AppComponent, CardItensComponent, DashboardComponent, ContainerComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
